@@ -22,3 +22,6 @@
 
 ![image](https://user-images.githubusercontent.com/104840227/175031410-9b30b031-d472-4411-a426-46d718c3600a.png)
 
+* Git Workflow runs tests and builds artifect
+
+![image](https://user-images.githubusercontent.com/104840227/175033755-96f2e7eb-bad2-42ff-81e7-9b51863a8e38.png)
