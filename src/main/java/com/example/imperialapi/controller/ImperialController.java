@@ -13,4 +13,9 @@ public class ImperialController {
     Double inchToCentimeter(@RequestParam Double inch) {
         return inch * 2.54;
     }
+
+    @GetMapping("/meter")
+    Double yardToMeter(@RequestParam Double yard) {
+        return yard / 1.094;
+    }
 }
