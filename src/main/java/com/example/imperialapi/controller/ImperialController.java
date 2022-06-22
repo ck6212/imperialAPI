@@ -11,11 +11,13 @@ public class ImperialController {
 
     @GetMapping("/centimeter")
     Double inchToCentimeter(@RequestParam Double inch) {
-        return inch * 2.54;
+        double centimeter = inch * 2.54;
+        return Math.round(centimeter * 100.0) / 100.0;
     }
 
     @GetMapping("/meter")
     Double yardToMeter(@RequestParam Double yard) {
-        return yard / 1.094;
+        double meter = yard / 1.094;
+        return Math.round(meter * 100.0) / 100.0;
     }
 }
